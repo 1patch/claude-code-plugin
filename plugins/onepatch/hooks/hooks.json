@@ -1,0 +1,15 @@
+{
+	"description": "Injects a one-line open-incidents digest into each turn (served from a local cache; a detached refresh keeps it current — prompts are never delayed). Silent when logged out or when nothing is open. Requires the onepatch CLI.",
+	"hooks": {
+		"UserPromptSubmit": [
+			{
+				"hooks": [
+					{
+						"type": "command",
+						"command": "command -v onepatch >/dev/null && onepatch hook user-prompt-submit --agent claude-code || true"
+					}
+				]
+			}
+		]
+	}
+}

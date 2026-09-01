@@ -1,0 +1,12 @@
+{
+	"name": "onepatch",
+	"description": "OnePatch — the AI SRE. Telemetry, incidents, and agent chats from your coding agent.",
+	"owner": { "name": "OnePatch", "url": "https://onepatch.dev" },
+	"plugins": [
+		{
+			"name": "onepatch",
+			"source": "./plugins/onepatch",
+			"description": "Query your telemetry, read and drive incidents, and delegate to the OnePatch agent — via the OnePatch MCP server and CLI."
+		}
+	]
+}
