@@ -1,6 +1,6 @@
 {
 	"name": "onepatch",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "OnePatch — the AI SRE. Query your telemetry, read and drive incidents, and delegate to the OnePatch agent from Claude Code.",
 	"author": { "name": "OnePatch", "url": "https://onepatch.dev" },
 	"homepage": "https://onepatch.dev",
