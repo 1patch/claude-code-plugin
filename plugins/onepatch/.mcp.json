@@ -1,6 +1,6 @@
 {
 	"onepatch": {
 		"type": "http",
-		"url": "https://app.onepatch.dev/mcp"
+		"url": "${user_config.mcp_url}"
 	}
 }
