@@ -1,12 +1,21 @@
 {
 	"name": "onepatch",
-	"version": "0.1.2",
-	"description": "OnePatch — the AI SRE. Query your telemetry, read and drive incidents, and delegate to the OnePatch agent from Claude Code.",
-	"author": { "name": "OnePatch", "url": "https://onepatch.dev" },
+	"version": "0.2.0",
+	"description": "OnePatch \u2014 the AI SRE. Query your telemetry, read and drive incidents, and delegate to the OnePatch agent from Claude Code.",
+	"author": {
+		"name": "OnePatch",
+		"url": "https://onepatch.dev"
+	},
 	"homepage": "https://onepatch.dev",
 	"repository": "https://github.com/1patch/claude-code-plugin",
 	"license": "MIT",
-	"keywords": ["observability", "sre", "incidents", "opentelemetry", "mcp"],
+	"keywords": [
+		"observability",
+		"sre",
+		"incidents",
+		"opentelemetry",
+		"mcp"
+	],
 	"userConfig": {
 		"api_url": {
 			"type": "string",
